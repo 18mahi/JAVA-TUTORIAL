@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 public class vnO { // same class name as the file name
-    public static void main(String[] args) {
+    public static void main(String[] args) { // boilerplate code which is written by the user everytime 
         // Example usage of the vnO class
         System.out.println("vnO class is ready to use."); // FOR NEXT LINE USE println
         System.out.print("vnO class is ready to use."); // FOR SAME LINE USE print
@@ -224,6 +224,5 @@ public class vnO { // same class name as the file name
         System.out.println("Is d greater than or equal to e? " + (d >= e)); // prints false because d is not greater than or equal to e
         System.out.println("Is d less than or equal to e? " + (d <= e)); // prints true because d is less than or equal to e
     }
-    // boilerplate code which is written by the user everytime for example code 1
-    // and 2
+    
 }
