@@ -1,4 +1,18 @@
 public class patterns {
+    public static void num_pyramid_pattern(int n){
+        int count=1;
+		for(int i=1;i<=n;i++){
+		    for(int j=1;j<=(n-i);j++){  
+		        System.out.print(" ");
+		    }
+		    for(int j=1;j<=i;j++){
+		        System.out.print(count);
+		        System.out.print(" ");
+		    }
+		    count++;
+		    System.out.println();
+		}
+    }
 
     public static void hollow_rectangle(int row, int col) {
         for (int i = 1; i <= row; i++) { // outside loop for rows
@@ -293,5 +307,7 @@ public class patterns {
         diamond_pattern(5);
         System.out.println("Butterfly Pattern:");
         butterfly_pattern(5);
+        System.out.println("number pyramid pattern");
+        num_pyramid_pattern(5);
     }
 }
